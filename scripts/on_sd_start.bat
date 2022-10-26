@@ -338,6 +338,6 @@ echo. > "..\models\stable-diffusion\Put your custom ckpt files here.txt"
 
 @call python --version
 
-@uvicorn server:app --app-dir "%SD_UI_PATH%" --port 9000 --host 0.0.0.0
+@uvicorn server:app --app-dir "%SD_UI_PATH%" --port 9000 --host 127.0.0.1
 
 @pause
