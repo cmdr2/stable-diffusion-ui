@@ -84,6 +84,11 @@ You don't need to install or struggle with Python, Anaconda, Docker etc. The ins
 3. **Run**:
   - For Windows: `Start Stable Diffusion UI.cmd` by double-clicking it.
   - For Linux: In the terminal, run `./start.sh` (or `bash start.sh`)
+  
+ ### Full Quickstart Command for linux:
+```shell
+wget https://github.com/cmdr2/stable-diffusion-ui/releases/download/v2.16/stable-diffusion-ui-linux.tar.xz && tar -xf stable-*.tar.xz && rm stable-*.tar.xz && cd stable-diffusion-ui && ./start
+```
 
 This will automatically install Stable Diffusion, set it up, and start the interface. No additional steps are needed.
 
